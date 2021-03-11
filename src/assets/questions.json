@@ -1,0 +1,75 @@
+{
+  "title": "Angular Exam",
+  "duration": 3,
+  "atLeast": 3,
+  "questions": [
+    {
+      "question": "Which is the result of 5x5+5?",
+      "answer": "50",
+      "options": [
+        "30",
+        "60",
+        "50",
+        "55"
+      ],
+      "control": "radio"
+    },
+    {
+      "question": "Is Angular a framework or library?",
+      "answer": "Framework",
+      "options": [
+        "Framework",
+        "Library",
+        "None of them"
+      ],
+      "control": "radio"
+    },
+    {
+      "question": "How many primitive datatypes exist in Javascript?",
+      "answer": "4",
+      "options": [
+        "8",
+        "6",
+        "4",
+        "More than 8"
+      ],
+      "control": "radio"
+    },
+    {
+      "question": "Which options aren't angular building blocks?",
+      "answer": [
+        "Controllers",
+        "Observables"
+      ],
+      "options": [
+        "Components",
+        "DI",
+        "Data binding",
+        "Observables",
+        "Directives",
+        "Controllers",
+        "Metadata",
+        "Services",
+        "Modules",
+        "Templates"
+      ],
+      "control": "radio"
+    },
+    {
+      "question": "Wich are types of directives of angular?",
+      "answer": [
+        "Structural",
+        "Attribute",
+        "Component"
+      ],
+      "options": [
+        "Structural",
+        "Hierarchy",
+        "Attribute",
+        "Component",
+        "Service"
+      ],
+      "control": "radio"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+:host {
+  .home__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+
+    & > button {
+      align-self: center;
+      height: 55px;
+      width: 30%;
+    }
+  }
+}
