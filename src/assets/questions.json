@@ -1,16 +1,16 @@
 {
   "title": "Angular Exam",
-  "duration": 3,
+  "duration": 1,
   "atLeast": 3,
   "questions": [
     {
-      "question": "Which is the result of 5x5+5?",
-      "answer": "50",
+      "question": "How many datatypes exist in Javascript?",
+      "answer": "8",
       "options": [
-        "30",
-        "60",
-        "50",
-        "55"
+        "4",
+        "6",
+        "8",
+        "9"
       ],
       "control": "radio"
     },
@@ -53,7 +53,7 @@
         "Modules",
         "Templates"
       ],
-      "control": "radio"
+      "control": "checkbox"
     },
     {
       "question": "Wich are types of directives of angular?",
@@ -69,7 +69,7 @@
         "Component",
         "Service"
       ],
-      "control": "radio"
+      "control": "checkbox"
     }
   ]
 }

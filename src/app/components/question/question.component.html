@@ -1,1 +1,19 @@
-<p>question works!</p>
+<h4>Question #{{ index }}</h4>
+<ng-container *ngIf="!!data">
+  <p>{{ data.question }}</p>
+  <ng-container [ngSwitch]="data.control">
+    <ul *ngSwitchCase="'checkbox'">
+      <li *ngFor="let option of data.options">
+        <mat-checkbox (change)="putAnswer($event.source.value)" color="primary" [value]="option">{{ option }}</mat-checkbox>
+      </li>
+    </ul>
+    <mat-radio-group (change)="putAnswer($event.source.value)" *ngSwitchCase="'radio'" [name]="index + ''"
+                     color="primary">
+      <ul>
+        <li *ngFor="let option of data.options">
+          <mat-radio-button [value]="option" color="primary" name="answer">{{ option }}</mat-radio-button>
+        </li>
+      </ul>
+    </mat-radio-group>
+  </ng-container>
+</ng-container>

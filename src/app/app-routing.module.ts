@@ -7,7 +7,10 @@ import { QuestionsService } from './services/questions.service';
 const routes: Routes = [
   {
     path: 'questions',
-    component: QuestionBoardComponent
+    component: QuestionBoardComponent,
+    resolve: {
+      exam: QuestionsService
+    }
   },
   {
     path: '',

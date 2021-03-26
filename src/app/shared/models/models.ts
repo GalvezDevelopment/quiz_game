@@ -5,8 +5,12 @@ export interface Exam {
   questions: Question[];
 }
 
+export type QuestionType = 'radio' | 'checkbox';
+
 export interface Question {
   question: string;
-  answer: string;
+  answer: string | string[];
+  userAnswer: string | string[];
   options: string[];
+  control: QuestionType;
 }

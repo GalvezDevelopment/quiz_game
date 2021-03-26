@@ -1,0 +1,19 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  padding: 0 0 20px 0;
+  box-sizing: border-box;
+
+  .question-board__action {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .question-board__timer {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+}

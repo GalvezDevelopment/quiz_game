@@ -1,1 +1,16 @@
-<p>question-board works!</p>
+<div class="question-board__panel">
+  <div class="question-board__timer">{{ timer | async }}</div>
+  <ng-container *ngFor="let question of questions; let i = index">
+    <app-question (answer)="saveAnswer(i, $event)" *ngIf="active === i" [data]="question"
+                  [index]="i + 1"></app-question>
+  </ng-container>
+  <ng-container *ngIf="buttonText === buttonTexts[1]">
+    <h3>You've finished all question of this quiz.</h3>
+    <h3>According this exam configuration you <em>{{ examStatus }}</em>.</h3>
+    <h5>Correct answers: {{ correctAnswers }} ({{ (correctAnswers/questions.length)*100 }}%)</h5>
+  </ng-container>
+</div>
+<div class="question-board__action">
+  <button color="accent" mat-stroked-button routerLink="/">SALIR</button>
+  <button (click)="next()" color="primary" mat-flat-button>{{ buttonText }}</button>
+</div>
