@@ -1,0 +1,75 @@
+{
+  "title": "Angular Exam",
+  "duration": 1,
+  "atLeast": 3,
+  "questions": [
+    {
+      "question": "How many datatypes exist in Javascript?",
+      "answer": "8",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "9"
+      ],
+      "control": "radio"
+    },
+    {
+      "question": "Is Angular a framework or library?",
+      "answer": "Framework",
+      "options": [
+        "Framework",
+        "Library",
+        "None of them"
+      ],
+      "control": "radio"
+    },
+    {
+      "question": "How many primitive datatypes exist in Javascript?",
+      "answer": "4",
+      "options": [
+        "8",
+        "6",
+        "4",
+        "More than 8"
+      ],
+      "control": "radio"
+    },
+    {
+      "question": "Which options aren't angular building blocks?",
+      "answer": [
+        "Controllers",
+        "Observables"
+      ],
+      "options": [
+        "Components",
+        "DI",
+        "Data binding",
+        "Observables",
+        "Directives",
+        "Controllers",
+        "Metadata",
+        "Services",
+        "Modules",
+        "Templates"
+      ],
+      "control": "checkbox"
+    },
+    {
+      "question": "Wich are types of directives of angular?",
+      "answer": [
+        "Structural",
+        "Attribute",
+        "Component"
+      ],
+      "options": [
+        "Structural",
+        "Hierarchy",
+        "Attribute",
+        "Component",
+        "Service"
+      ],
+      "control": "checkbox"
+    }
+  ]
+}

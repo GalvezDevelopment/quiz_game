@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+:host {
+  mat-toolbar.mat-toolbar {
+    font-family: 'Passion One';
+    font-size: 32px;
+    justify-content: center;
+  }
+
+  .app__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    margin: auto;
+
+    & > div:last-child {
+      flex: 100%;
+    }
+  }
+}
